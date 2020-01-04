@@ -23,6 +23,11 @@ public class PaypalService {
 	@Autowired
 	private APIContext apiContext;
 	
+	
+	public void testBranchCreation() {
+		System.out.println("branch creation");
+	}
+	
 	//payment method
 	public Payment createPayment(
 		Double total,
